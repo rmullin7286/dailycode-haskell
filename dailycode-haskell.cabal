@@ -23,6 +23,16 @@ source-repository head
   type: git
   location: https://github.com/rmullin7286/dailycode-haskell
 
+executable h_index
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      h_index
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
 executable partition_sum_minimized
   main-is: Main.hs
   other-modules:

@@ -29,6 +29,9 @@ executables:
   partition_sum_minimized:
     main: Main.hs
     source-dirs: partition_sum_minimized
+  h_index:
+    main: Main.hs
+    source-dirs: h_index
 
 # executables:
 #   dailycode-haskell-exe:
