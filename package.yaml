@@ -26,6 +26,9 @@ executables:
   prefix-map-sum:
     main: Main.hs
     source-dirs: prefix_map_sum
+  partition_sum_minimized:
+    main: Main.hs
+    source-dirs: partition_sum_minimized
 
 # executables:
 #   dailycode-haskell-exe:
