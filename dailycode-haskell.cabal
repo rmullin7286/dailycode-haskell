@@ -23,6 +23,17 @@ source-repository head
   type: git
   location: https://github.com/rmullin7286/dailycode-haskell
 
+executable ghost_game
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      ghost_game
+  build-depends:
+      base >=4.7 && <5
+    , containers >=0.6.5.1
+  default-language: Haskell2010
+
 executable h_index
   main-is: Main.hs
   other-modules:
@@ -31,6 +42,7 @@ executable h_index
       h_index
   build-depends:
       base >=4.7 && <5
+    , containers >=0.6.5.1
   default-language: Haskell2010
 
 executable partition_sum_minimized
@@ -41,6 +53,7 @@ executable partition_sum_minimized
       partition_sum_minimized
   build-depends:
       base >=4.7 && <5
+    , containers >=0.6.5.1
   default-language: Haskell2010
 
 executable prefix-map-sum
@@ -51,4 +64,5 @@ executable prefix-map-sum
       prefix_map_sum
   build-depends:
       base >=4.7 && <5
+    , containers >=0.6.5.1
   default-language: Haskell2010

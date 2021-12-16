@@ -21,6 +21,7 @@ description:         Please see the README on GitHub at <https://github.com/rmul
 
 dependencies:
 - base >= 4.7 && < 5
+- containers >= 0.6.5.1
 
 executables:
   prefix-map-sum:
@@ -32,6 +33,9 @@ executables:
   h_index:
     main: Main.hs
     source-dirs: h_index
+  ghost_game:
+    main: Main.hs
+    source-dirs: ghost_game
 
 # executables:
 #   dailycode-haskell-exe:
