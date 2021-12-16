@@ -23,6 +23,17 @@ source-repository head
   type: git
   location: https://github.com/rmullin7286/dailycode-haskell
 
+executable boustrophedon
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      boustrophedon
+  build-depends:
+      base >=4.7 && <5
+    , containers >=0.6.5.1
+  default-language: Haskell2010
+
 executable ghost_game
   main-is: Main.hs
   other-modules:

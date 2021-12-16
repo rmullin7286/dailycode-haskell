@@ -36,6 +36,9 @@ executables:
   ghost_game:
     main: Main.hs
     source-dirs: ghost_game
+  boustrophedon:
+    main: Main.hs
+    source-dirs: boustrophedon
 
 # executables:
 #   dailycode-haskell-exe:
