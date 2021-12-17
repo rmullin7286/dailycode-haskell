@@ -77,3 +77,14 @@ executable prefix-map-sum
       base >=4.7 && <5
     , containers >=0.6.5.1
   default-language: Haskell2010
+
+executable relative_sequence
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      relative_sequence
+  build-depends:
+      base >=4.7 && <5
+    , containers >=0.6.5.1
+  default-language: Haskell2010

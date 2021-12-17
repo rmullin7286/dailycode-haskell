@@ -39,6 +39,9 @@ executables:
   boustrophedon:
     main: Main.hs
     source-dirs: boustrophedon
+  relative_sequence:
+    main: Main.hs
+    source-dirs: relative_sequence
 
 # executables:
 #   dailycode-haskell-exe:
