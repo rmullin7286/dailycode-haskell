@@ -42,6 +42,9 @@ executables:
   relative_sequence:
     main: Main.hs
     source-dirs: relative_sequence
+  fixed_point:
+    main: Main.hs
+    source-dirs: fixed_point
 
 # executables:
 #   dailycode-haskell-exe:
