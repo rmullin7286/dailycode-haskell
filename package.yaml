@@ -22,6 +22,7 @@ description:         Please see the README on GitHub at <https://github.com/rmul
 dependencies:
 - base >= 4.7 && < 5
 - containers >= 0.6.5.1
+- mtl >= 2.2.2
 
 executables:
   prefix-map-sum:
@@ -45,7 +46,9 @@ executables:
   fixed_point:
     main: Main.hs
     source-dirs: fixed_point
-
+  validate_utf8:
+    main: Main.hs
+    source-dirs: validate_utf8
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
