@@ -46,9 +46,9 @@ executables:
   fixed_point:
     main: Main.hs
     source-dirs: fixed_point
-  validate_utf8:
+  site_similarity:
     main: Main.hs
-    source-dirs: validate_utf8
+    source-dirs: site_similarity
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
