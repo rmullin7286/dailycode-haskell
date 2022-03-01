@@ -33,6 +33,22 @@ executable boustrophedon
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
+  default-language: Haskell2010
+
+executable celebrity_problem
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      celebrity_problem
+  build-depends:
+      base >=4.7 && <5
+    , containers >=0.6.5.1
+    , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010
 
 executable fixed_point
@@ -45,6 +61,8 @@ executable fixed_point
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010
 
 executable ghost_game
@@ -57,6 +75,8 @@ executable ghost_game
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010
 
 executable h_index
@@ -69,6 +89,8 @@ executable h_index
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010
 
 executable partition_sum_minimized
@@ -81,6 +103,8 @@ executable partition_sum_minimized
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010
 
 executable prefix-map-sum
@@ -93,6 +117,8 @@ executable prefix-map-sum
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010
 
 executable relative_sequence
@@ -105,6 +131,8 @@ executable relative_sequence
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010
 
 executable site_similarity
@@ -117,4 +145,6 @@ executable site_similarity
       base >=4.7 && <5
     , containers >=0.6.5.1
     , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
   default-language: Haskell2010

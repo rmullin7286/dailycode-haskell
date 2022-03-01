@@ -23,6 +23,8 @@ dependencies:
 - base >= 4.7 && < 5
 - containers >= 0.6.5.1
 - mtl >= 2.2.2
+- vector >= 0.12.3.1
+- random >= 1.2.1
 
 executables:
   prefix-map-sum:
@@ -49,6 +51,9 @@ executables:
   site_similarity:
     main: Main.hs
     source-dirs: site_similarity
+  celebrity_problem:
+    main: Main.hs
+    source-dirs: celebrity_problem
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
