@@ -54,6 +54,9 @@ executables:
   celebrity_problem:
     main: Main.hs
     source-dirs: celebrity_problem
+  minimum_perfect_squares:
+    main: Main.hs
+    source-dirs: minimum_perfect_squares
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
