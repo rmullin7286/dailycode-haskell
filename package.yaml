@@ -57,6 +57,9 @@ executables:
   minimum_perfect_squares:
     main: Main.hs
     source-dirs: minimum_perfect_squares
+  manhattan_distance:
+    main: Main.hs
+    source-dirs: manhattan_distance
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
