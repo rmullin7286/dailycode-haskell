@@ -60,6 +60,9 @@ executables:
   manhattan_distance:
     main: Main.hs
     source-dirs: manhattan_distance
+  index_value_equality:
+    main: Main.hs
+    source-dirs: index_value_equality
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
