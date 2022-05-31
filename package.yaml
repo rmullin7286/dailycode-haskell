@@ -63,6 +63,9 @@ executables:
   index_value_equality:
     main: Main.hs
     source-dirs: index_value_equality
+  merge_trees:
+    main: Main.hs
+    source-dirs: merge_trees
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
