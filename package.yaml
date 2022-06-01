@@ -66,6 +66,9 @@ executables:
   merge_trees:
     main: Main.hs
     source-dirs: merge_trees
+  nth_perfect_number:
+    main: Main.hs
+    source-dirs: nth_perfect_number
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs

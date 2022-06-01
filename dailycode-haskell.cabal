@@ -149,6 +149,20 @@ executable minimum_perfect_squares
     , vector >=0.12.3.1
   default-language: Haskell2010
 
+executable nth_perfect_number
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      nth_perfect_number
+  build-depends:
+      base >=4.7 && <5
+    , containers >=0.6.5.1
+    , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
+  default-language: Haskell2010
+
 executable partition_sum_minimized
   main-is: Main.hs
   other-modules:
