@@ -69,6 +69,9 @@ executables:
   nth_perfect_number:
     main: Main.hs
     source-dirs: nth_perfect_number
+  pascals_triangle:
+    main: Main.hs
+    source-dirs: pascals_triangle
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs
