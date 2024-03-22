@@ -72,6 +72,9 @@ executables:
   pascals_triangle:
     main: Main.hs
     source-dirs: pascals_triangle
+  find-rotation-index:
+    main: Main.hs
+    source-dirs: find_rotation_index
 # executables:
 #   dailycode-haskell-exe:
 #     main:                Main.hs

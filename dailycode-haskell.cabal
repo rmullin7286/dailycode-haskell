@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.6.
+-- This file has been generated from package.yaml by hpack version 0.36.0.
 --
 -- see: https://github.com/sol/hpack
 
@@ -43,6 +43,20 @@ executable celebrity_problem
       Paths_dailycode_haskell
   hs-source-dirs:
       celebrity_problem
+  build-depends:
+      base >=4.7 && <5
+    , containers >=0.6.5.1
+    , mtl >=2.2.2
+    , random >=1.2.1
+    , vector >=0.12.3.1
+  default-language: Haskell2010
+
+executable find-rotation-index
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      find_rotation_index
   build-depends:
       base >=4.7 && <5
     , containers >=0.6.5.1
