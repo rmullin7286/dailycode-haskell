@@ -3,6 +3,14 @@
 -- Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
 -- For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
 -- You can assume all the integers in the array are unique.
+--
+-- SOLUTION:
+-- Since the question is asking for sub O(N), my first intuition would be that we need to do a binary search here.
+-- The solution for this is very similar to a normal binary search on a sorted array, with a few caveats.
+-- 1. For any pivot, at least one half of the array is sorted. For instance, if our pivot is 25, then 13,18,25 is sorted,
+--    but the beginning of the array was rotated to index 3, so 25,2,8,10 is not sorted.
+-- 2. We can check to see if the value exists inside the sorted half. If it does, recurse on that. Otherwise, recurse on the
+--    other half.
 
 import qualified Data.Vector as V
 
