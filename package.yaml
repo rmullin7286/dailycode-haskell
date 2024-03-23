@@ -78,3 +78,6 @@ executables:
   permute-array:
     main: Main.hs
     source-dirs: permute_array
+  cartesian-tree:
+    main: Main.hs
+    source-dirs: cartesian_tree
