@@ -20,11 +20,11 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/rmullin7286/dailycode-haskell#readme>
 
 dependencies:
-- base >= 4.7 && < 5
-- containers >= 0.6.5.1
-- mtl >= 2.2.2
-- vector >= 0.12.3.1
-- random >= 1.2.1
+- base
+- containers
+- mtl
+- vector
+- random 
 
 executables:
   prefix-map-sum:
@@ -81,3 +81,6 @@ executables:
   cartesian-tree:
     main: Main.hs
     source-dirs: cartesian_tree
+  most-frequent-subtree-sum:
+    main: Main.hs
+    source-dirs: most_frequent_subtree_sum

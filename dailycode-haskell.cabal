@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.36.0.
+-- This file has been generated from package.yaml by hpack version 0.37.0.
 --
 -- see: https://github.com/sol/hpack
 
@@ -30,11 +30,11 @@ executable boustrophedon
   hs-source-dirs:
       boustrophedon
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable cartesian-tree
@@ -44,11 +44,11 @@ executable cartesian-tree
   hs-source-dirs:
       cartesian_tree
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable celebrity_problem
@@ -58,11 +58,11 @@ executable celebrity_problem
   hs-source-dirs:
       celebrity_problem
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable find-rotation-index
@@ -72,11 +72,11 @@ executable find-rotation-index
   hs-source-dirs:
       find_rotation_index
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable fixed_point
@@ -86,11 +86,11 @@ executable fixed_point
   hs-source-dirs:
       fixed_point
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable ghost_game
@@ -100,11 +100,11 @@ executable ghost_game
   hs-source-dirs:
       ghost_game
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable h_index
@@ -114,11 +114,11 @@ executable h_index
   hs-source-dirs:
       h_index
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable index_value_equality
@@ -128,11 +128,11 @@ executable index_value_equality
   hs-source-dirs:
       index_value_equality
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable manhattan_distance
@@ -142,11 +142,11 @@ executable manhattan_distance
   hs-source-dirs:
       manhattan_distance
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable merge_trees
@@ -156,11 +156,11 @@ executable merge_trees
   hs-source-dirs:
       merge_trees
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable minimum_perfect_squares
@@ -170,11 +170,25 @@ executable minimum_perfect_squares
   hs-source-dirs:
       minimum_perfect_squares
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
+  default-language: Haskell2010
+
+executable most-frequent-subtree-sum
+  main-is: Main.hs
+  other-modules:
+      Paths_dailycode_haskell
+  hs-source-dirs:
+      most_frequent_subtree_sum
+  build-depends:
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable nth_perfect_number
@@ -184,11 +198,11 @@ executable nth_perfect_number
   hs-source-dirs:
       nth_perfect_number
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable partition_sum_minimized
@@ -198,11 +212,11 @@ executable partition_sum_minimized
   hs-source-dirs:
       partition_sum_minimized
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable pascals_triangle
@@ -212,11 +226,11 @@ executable pascals_triangle
   hs-source-dirs:
       pascals_triangle
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable permute-array
@@ -226,11 +240,11 @@ executable permute-array
   hs-source-dirs:
       permute_array
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable prefix-map-sum
@@ -240,11 +254,11 @@ executable prefix-map-sum
   hs-source-dirs:
       prefix_map_sum
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable relative_sequence
@@ -254,11 +268,11 @@ executable relative_sequence
   hs-source-dirs:
       relative_sequence
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
 
 executable site_similarity
@@ -268,9 +282,9 @@ executable site_similarity
   hs-source-dirs:
       site_similarity
   build-depends:
-      base >=4.7 && <5
-    , containers >=0.6.5.1
-    , mtl >=2.2.2
-    , random >=1.2.1
-    , vector >=0.12.3.1
+      base
+    , containers
+    , mtl
+    , random
+    , vector
   default-language: Haskell2010
